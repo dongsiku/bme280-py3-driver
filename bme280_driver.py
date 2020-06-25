@@ -133,8 +133,6 @@ class BME280:
 
 
 if __name__ == "__main__":
-    from time import sleep
-
     def print_tph(temperature, pressure, humidity):
         print("temperature: {:4.2f} degreeC".format(temperature))
         print("pressure: {:4.2f} hPa".format(pressure))
